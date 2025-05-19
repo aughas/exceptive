@@ -3,51 +3,7 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
 
   /* Vil du overskrive eller extende tailwinds indstillinger?  */
-/* Tokens - Mode 1 */
-module.exports = {
-  theme: {
-    extend: {
-      spacing: {
-        "font-size-h1": "205px",
-        "font-size-h2": "85px",
-        "font-size-h3": "27px",
-        "font-size-body": "28px",
-        "font-size-link": "12px",
-        "font-size-h1-sm": "50px",
-        "font-size-h2-sm": "35px",
-        "font-size-h3-sm": "11px",
-        "font-size-body-sm": "12px",
-        "font-size-link-sm": "10px",
-        "shadow-drop-50": "50px",
-        "shadow-inner-25": "25px",
-        "border-radius-none": "0px",
-        "border-radius-9": "9px",
-        "border-radius-32": "32px",
-        "spacing-xxs": "8px",
-        "spacing-xs": "16px",
-        "spacing-s": "24px",
-        "spacing-sm": "32px",
-        "spacing-m": "40px",
-        "spacing-ml": "48px",
-        "spacing-lg": "64px",
-        "spacing-xl": "80px",
-        "spacing-2xl": "96px",
-        "spacing-3xl": "112px",
-        "spacing-4xl": "128px",
-        "spacing-5xl": "268px",
-        "spacing-7xl": "320px",
-        "spacing-8xl": "376px",
-        "spacing-9xl": "468px",
-        "font-weight-regular": "400px",
-        "font-weight-bold": "700px",
-        "font-weight-black": "900px"
-      },
-      customProperties: {
-        "font-family-orbitron": "Orbitron"
-      },
-    }
-  }
-};
+
 /* Tokens - Mode 1 */
   theme: {
     extend: {
