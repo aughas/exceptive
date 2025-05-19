@@ -66,17 +66,17 @@ module.exports = {
           950: "#030303",
         },
         blue: {
-          50: "#E5EFFA",
-          100: "#CBDEF6",
-          200: "#97BEED",
-          300: "#639DE4",
-          400: "#2F7CDA",
-          500: "#1E5DAA",
-          600: "#184C8B",
-          700: "#123968",
-          800: "#0C2645",
-          900: "#061323",
-          950: "#030911",
+          50: "#E4E5FBFF",
+          100: "#CDD0F9FF",
+          200: "#979DF2FF",
+          300: "#666EEBFF",
+          400: "#2F3BE4FF",
+          500: "#1925C0FF",
+          600: "#141D99FF",
+          700: "#0F1675FF",
+          800: "#0A0E4DFF",
+          900: "#050829FF",
+          950: "#020312FF",
         },
       },
       spacing: {
@@ -140,49 +140,4 @@ module.exports = {
       require("@tailwindcss/container-queries"),
     ],
   },
-};
-
-
-/* Primitives - Mode 1 */
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        "exceptiveblå": "#1925C0FF",
-        "grey-950": "#0F1014FF",
-        "grey-900": "#1F2029FF",
-        "grey-800": "#3B3D4EFF",
-        "grey-700": "#5A5D77FF",
-        "grey-600": "#7D7F9CFF",
-        "grey-500": "#A3A5B9FF",
-        "grey-400": "#B7B8C8FF",
-        "grey-300": "#C8C9D5FF",
-        "grey-200": "#D9DAE2FF",
-        "grey-100": "#EEEEF2FF",
-        "grey-50": "#F6F6F8FF",
-        "black-950": "#000000FF",
-        "black-900": "#000000FF",
-        "black-800": "#000000FF",
-        "black-700": "#000000FF",
-        "black-600": "#000000FF",
-        "black-500": "#000000FF",
-        "black-400": "#333333FF",
-        "black-300": "#666666FF",
-        "black-200": "#999999FF",
-        "black-100": "#CCCCCCFF",
-        "black-50": "#E6E6E6FF",
-        "blue-950": "#020312FF",
-        "blue-900": "#050829FF",
-        "blue-800": "#0A0E4DFF",
-        "blue-700": "#0F1675FF",
-        "blue-600": "#141D99FF",
-        "blue-500": "#1925C0FF",
-        "blue-400": "#2F3BE4FF",
-        "blue-300": "#666EEBFF",
-        "blue-200": "#979DF2FF",
-        "blue-100": "#CDD0F9FF",
-        "blue-50": "#E4E5FBFF"
-      },
-    }
-  }
 };
