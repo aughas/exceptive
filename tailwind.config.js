@@ -35,6 +35,7 @@ export default {
           950: "#020312FF",
         },
       },
+      
       spacing: {
         xxs: "8px",
         xs: "16px",
@@ -47,27 +48,26 @@ export default {
         "2xl": "96px",
         "3xl": "112px",
         "4xl": "128px",
-        "5xl": "160px",
+        "5xl": "268px",
         "6xl": "208px",
         "7xl": "320px",
-        "8xl": "360px",
-        "9xl": "424px",
+        "8xl": "376px",
+        "9xl": "468px",
       },
       boxShadow: {
         "drop-50": "0 4px 4px 0 rgba(76, 73, 65, 0.5)",
-        "inner-50": "inset 0 4px 4px 0 rgba(76, 73, 65, 0.25)",
-      },
+        "inner-25": "inset 0 4px 4px 0 rgba(76, 73, 65, 0.25)",
+      }, 
       borderRadius: {
-        34: "34px",
-        50: "50px",
+        32: "32px",
+        9: "9px",
         none: "0px",
       },
 
       fontWeight: {
-        light: "300", // Corrected Light weight
-        regular: "400", // Corrected Roman (Regular) weight
-        medium: "500", // Optional: If Neue Haas Grotesk has a medium weight
+        regular: "400",
         bold: "700",
+        black: "900",
       },
 
       fontFamily: {
@@ -77,18 +77,20 @@ export default {
       letterSpacing: {
         cooper: "0px",
       },
-
       fontSize: {
-        small: ["20px", { lineHeight: "auto", letterSpacing: "1px" }],
-        base: ["26px", { lineHeight: "29px", letterSpacing: "0px" }],
-        bread: ["22px", { lineHeight: "auto", letterSpacing: "0px" }],
-        medium: ["70px", { lineHeight: "55px" }],
-        large: ["65px", { lineHeight: "50px" }],
-        tiny: ["12px", { lineHeight: "auto", letterSpacing: "1px" }],
-        slogan: ["35px", { lineHeight: "33px", letterSpacing: "0px" }],
+        h1: ["205px", { lineHeight: "auto", letterSpacing: "0px" }],
+        h2: ["85px", { lineHeight: "91px", letterSpacing: "0px" }],
+        h3: ["27px", { lineHeight: "auto", letterSpacing: "0px" }],
+        body: ["28px", { lineHeight: "auto", letterSpacing: "0px" }],
+        link: ["12px", { lineHeight: "auto", letterSpacing: "0px" }],
+        bodyDeco: ["21px", { lineHeight: "32px", letterSpacing: "0px" }],
+        h1Sm: ["50px", { lineHeight: "auto", letterSpacing: "0px" }],
+        h2Sm: ["28px", { lineHeight: "auto", letterSpacing: "0px" }],
+        bodySm: ["12px", { lineHeight: "auto", letterSpacing: "0px" }],
+        linkSm: ["10px", { lineHeight: "auto", letterSpacing: "0px" }],
       },
     },
-
+      
     plugins: [
       require("@tailwindcss/typography"),
       require("@tailwindcss/forms"),
@@ -97,3 +99,4 @@ export default {
     ],
   },
 };
+}
